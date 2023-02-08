@@ -1,0 +1,18 @@
+{
+  "name": "@sample/ivy",
+  "description": "A sample library to test ivy builds",
+  "version": "1.0.0-pre.0",
+  "private": true,
+  "repository": "https://github.com/ng-packagr/ng-packagr.git",
+  "dependencies": {
+    "@angular/common": "^14.2.12",
+    "@angular/core": "^14.2.12",
+    "rxjs": "^6.6.7",
+    "zone.js": "^0.12.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "14.2.10",
+    "@angular/cli": "^14.2.10",
+    "ng-packagr": "14.2.2"
+  }
+}

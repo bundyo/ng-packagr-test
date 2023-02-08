@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./out-tsc/lib",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSources": true,
+    "paths": {
+      "@lib": [
+        "dist/"
+      ]
+    },
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "es2020",
+    "lib": ["dom", "es2020"],
+    "types": []
+  },
+  "angularCompilerOptions": {
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
+    "enableResourceInlining": true,
+    "enableIvy": true,
+    "compilationMode": "partial",
+    "strictTemplates": true
+  },
+  "include": [
+    "./secondary/**/*.ts",
+    "./src/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
